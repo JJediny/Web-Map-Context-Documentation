@@ -1,0 +1,447 @@
+http://geoportal.gov.cz/php/statusmanager/index.php?request=load&_salt=0.25544553017243743&project=%2Fweb%2Fguest%2Fmap%2F
+
+{
+ scale: 241920,
+ projection: "epsg:102067",
+ center: [
+ -721889.47957968,
+-1142314.0639724
+ ],
+ units: "m",
+ maxExtent: {
+ left: -920000,
+ bottom:
+-1260700,
+ right: -230000,
+ top: -920000
+ },
+ resolutions: null,
+ scales: [
+7741440,
+ 3870720,
+ 1935360,
+ 967680,
+ 483840,
+ 241920,
+ 120960,
+ 60480,
+ 30240,
+15120,
+ 7560,
+ 3780,
+ 1890,
+ 945
+ ],
+ layers: [
+ {
+ className:
+"OpenLayers.Layer",
+ origClassName: "OpenLayers.Layer.Image",
+ name:
+"BaseLayer",
+ visibility: true,
+ opacity: null,
+ index: 0
+ },
+ {
+ className:
+"OpenLayers.Layer.Vector",
+ origClassName: "OpenLayers.Layer.Vector",
+ name:
+"Vector layer",
+ visibility: true,
+ opacity: null,
+ index: 1,
+displayInLayerSwitcher: false,
+ attribution: null,
+ transitionEffect: null,
+isBaseLayer: false,
+ minResolution: 0.2500311149832,
+ maxResolution:
+2048.2548939424,
+ minScale: 7741440,
+ maxScale: 945,
+ metadata: { },
+projection: "EPSG:102067",
+ projections: [ ],
+ maxExtent: {
+ left: -920000,
+bottom: -1260700,
+ right: -230000,
+ top: -920000
+ },
+ features: {
+ type:
+"FeatureCollection",
+ features: [ ]
+ },
+ selectedFeatures: [ ]
+ },
+ {
+className: "OpenLayers.Layer.Vector",
+ origClassName: "OpenLayers.Layer.Vector",
+name: "Marker layer",
+ visibility: true,
+ opacity: null,
+ index: 2,
+displayInLayerSwitcher: false,
+ attribution: null,
+ transitionEffect: null,
+isBaseLayer: false,
+ minResolution: 0.2500311149832,
+ maxResolution:
+2048.2548939424,
+ minScale: 7741440,
+ maxScale: 945,
+ metadata: { },
+projection: "EPSG:102067",
+ projections: [ ],
+ maxExtent: {
+ left: -920000,
+bottom: -1260700,
+ right: -230000,
+ top: -920000
+ },
+ features: {
+ type:
+"FeatureCollection",
+ features: [ ]
+ },
+ selectedFeatures: [ ]
+ },
+ {
+className: "OpenLayers.Layer.Vector",
+ origClassName: "OpenLayers.Layer.Vector",
+name: "User graphics",
+ visibility: true,
+ opacity: null,
+ title: "Uživatelská
+grafika",
+ index: 3,
+ displayInLayerSwitcher: false,
+ attribution: null,
+transitionEffect: null,
+ isBaseLayer: false,
+ minResolution: 0.2500311149832,
+maxResolution: 2048.2548939424,
+ minScale: 7741440,
+ maxScale: 945,
+ metadata: { },
+projection: "EPSG:102067",
+ projections: [ ],
+ maxExtent: {
+ left: -920000,
+bottom: -1260700,
+ right: -230000,
+ top: -920000
+ },
+ features: {
+ type:
+"FeatureCollection",
+ features: [ ]
+ },
+ selectedFeatures: [ ]
+ },
+ {
+className: "OpenLayers.Layer.XYZ",
+ origClassName:
+"HSLayers.Layer.ArcGISServer",
+ name: "road_map",
+ visibility: false,
+ opacity:
+null,
+ title: "Automapa",
+ index: 4,
+ wrapDateLine: false,
+ sphericalMercator:
+false
+ },
+ {
+ className: "OpenLayers.Layer.XYZ",
+ origClassName:
+"HSLayers.Layer.ArcGISServer",
+ name: "military_raster",
+ visibility: false,
+opacity: null,
+ title: "Vojenské mapy (rastrové)",
+ index: 5,
+ wrapDateLine:
+false,
+ sphericalMercator: false
+ },
+ {
+ className: "OpenLayers.Layer.XYZ",
+origClassName: "HSLayers.Layer.ArcGISServer",
+ name: "military_IInd",
+visibility: false,
+ opacity: null,
+ title: "II. vojenské mapování",
+ index: 6,
+wrapDateLine: false,
+ sphericalMercator: false
+ },
+ {
+ className:
+"OpenLayers.Layer.Grid",
+ origClassName: "OpenLayers.Layer.WMTS",
+ name:
+"military_IIInd",
+ visibility: false,
+ opacity: null,
+ title: "III. vojenské
+mapování",
+ index: 7
+ },
+ {
+ className: "OpenLayers.Layer.Grid",
+ origClassName:
+"OpenLayers.Layer.WMTS",
+ name: "orto_cosmc",
+ visibility: false,
+ opacity:
+null,
+ title: "Ortofotomapy ČÚZK (aktuální)",
+ index: 8
+ },
+ {
+ className:
+"OpenLayers.Layer.XYZ",
+ origClassName: "HSLayers.Layer.ArcGISServer",
+ name:
+"orto_50s",
+ visibility: false,
+ opacity: null,
+ title: "Ortofotomapa (50.
+léta)",
+ index: 9,
+ wrapDateLine: false,
+ sphericalMercator: false
+ },
+ {
+className: "OpenLayers.Layer.XYZ",
+ origClassName:
+"HSLayers.Layer.ArcGISServer",
+ name: "dmu",
+ visibility: false,
+ opacity: null,
+title: "Digitální model území (DMÚ25)",
+ index: 10,
+ wrapDateLine: false,
+sphericalMercator: false
+ },
+ {
+ className: "OpenLayers.Layer.Grid",
+origClassName: "OpenLayers.Layer.WMTS",
+ name: "zabaged",
+ visibility: false,
+opacity: null,
+ title: "Základní báze geografických dat ČR (ZABAGED&reg;)",
+index: 11
+ },
+ {
+ className: "OpenLayers.Layer.Grid",
+ origClassName:
+"OpenLayers.Layer.WMTS",
+ name: "topo_cosmc",
+ visibility: true,
+ opacity: null,
+title: "Topografické mapy ČÚZK",
+ index: 12
+ },
+ {
+ className:
+"OpenLayers.Layer.WMS",
+ origClassName: "OpenLayers.Layer.WMS",
+ name:
+"Katastrální mapy/Pozemkový katastr",
+ visibility: false,
+ opacity: null,
+title: "Pozemkový katastr",
+ index: 13,
+ path: "Katastrální mapy"
+ },
+ {
+className: "OpenLayers.Layer.WMS",
+ origClassName: "OpenLayers.Layer.WMS",
+name: "Katastrální mapy/Definiční body parcel",
+ visibility: false,
+ opacity:
+null,
+ title: "Definiční body parcel",
+ index: 14,
+ path: "Katastrální mapy"
+ },
+ {
+className: "OpenLayers.Layer.WMS",
+ origClassName: "OpenLayers.Layer.WMS",
+name: "Katastrální mapy/Katastr nemovitostí",
+ visibility: false,
+ opacity:
+null,
+ title: "Katastr nemovitostí",
+ index: 15,
+ path: "Katastrální mapy"
+ },
+ {
+className: "OpenLayers.Layer.XYZ",
+ origClassName:
+"HSLayers.Layer.ArcGISServer",
+ name: "labels",
+ visibility: false,
+ opacity:
+null,
+ title: "Popisky",
+ index: 16,
+ wrapDateLine: false,
+ sphericalMercator:
+false
+ },
+ {
+ className: "OpenLayers.Layer.XYZ",
+ origClassName:
+"HSLayers.Layer.ArcGISServer",
+ name: "relief",
+ visibility: true,
+ opacity:
+null,
+ title: "Stínování",
+ index: 17,
+ wrapDateLine: false,
+ sphericalMercator:
+false
+ },
+ {
+ className: "OpenLayers.Layer.Vector",
+ origClassName:
+"HSLayers.Layer.SearchParser",
+ name: "lokality",
+ visibility: true,
+ opacity:
+null,
+ index: 18,
+ strategies: [
+ {
+ className: "OpenLayers.Strategy.Fixed"
+ }
+ ],
+protocol: {
+ className: "OpenLayers.Protocol.HTTP",
+ options: {
+ format: { },
+url: null
+ },
+ format: {
+ className: "OpenLayers.Format.KML",
+ options: {
+extractStyles: false,
+ extractAttributes: true
+ }
+ }
+ }
+ },
+ {
+ className:
+"OpenLayers.Layer.Vector",
+ origClassName: "HSLayers.Layer.SearchParser",
+ name:
+"adresy",
+ visibility: true,
+ opacity: null,
+ index: 19,
+ strategies: [
+ {
+className: "OpenLayers.Strategy.Fixed"
+ }
+ ],
+ protocol: {
+ className:
+"OpenLayers.Protocol.HTTP",
+ options: {
+ format: { },
+ url: null
+ },
+ format: {
+className: "OpenLayers.Format.KML",
+ options: {
+ extractStyles: false,
+extractAttributes: true
+ }
+ }
+ }
+ },
+ { }
+ ],
+ uuid:
+"56152c65-1760-4f8c-8282-6103c0a80138",
+ layerStructure: {
+ 0: {
+ name:
+"relief",
+ type: "layer"
+ },
+ 1: {
+ name: "labels",
+ type: "layer"
+ },
+ 2: {
+name: "Katastrální mapy",
+ type: "folder",
+ structure: {
+ 0: {
+ name:
+"Katastrální mapy/Katastr nemovitostí",
+ type: "layer"
+ },
+ 1: {
+ name:
+"Katastrální mapy/Definiční body parcel",
+ type: "layer"
+ },
+ 2: {
+ name:
+"Katastrální mapy/Pozemkový katastr",
+ type: "layer"
+ }
+ }
+ },
+ 3: {
+ name:
+"topo_cosmc",
+ type: "layer"
+ },
+ 4: {
+ name: "zabaged",
+ type: "layer"
+ },
+ 5: {
+name: "dmu",
+ type: "layer"
+ },
+ 6: {
+ name: "orto_50s",
+ type: "layer"
+ },
+ 7: {
+name: "orto_cosmc",
+ type: "layer"
+ },
+ 8: {
+ name: "military_IIInd",
+ type:
+"layer"
+ },
+ 9: {
+ name: "military_IInd",
+ type: "layer"
+ },
+ 10: {
+ name:
+"military_raster",
+ type: "layer"
+ },
+ 11: {
+ name: "road_map",
+ type: "layer"
+ }
+ }
+ }
